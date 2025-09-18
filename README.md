@@ -1,16 +1,20 @@
 # DartSassBuilder
 
-> A dart-compiled version of [LibSassBuilder](https://github.com/johan-v-r/LibSassBuilder), using [DartSassHost](https://github.com/Taritsyn/DartSassHost)
+> A dart-compiled version of
+> [LibSassBuilder](https://github.com/johan-v-r/LibSassBuilder), using
+> [DartSassHost](https://github.com/Taritsyn/DartSassHost)
 
-| Build                                                                              | NuGet Package                                                                                                  | .NET Global Tool                                                                                                       | Downloads                                                                                                              |
-| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| ![Build](https://github.com/deanwiseman/DartSassBuilder/workflows/Build/badge.svg) | [![Nuget](https://img.shields.io/nuget/vpre/DartSassBuilder)](https://www.nuget.org/packages/DartSassBuilder/) | [![.NET Tool](https://img.shields.io/nuget/vpre/DartSassBuilder)](https://www.nuget.org/packages/DartSassBuilder-Tool) | ![NuGet Downloads](https://img.shields.io/nuget/dt/DartSassBuilder)													|
+| Build                                                                              | NuGet Package                                                                                                  | .NET Global Tool                                                                                                       | Downloads                                                           |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| ![Build](https://github.com/deanwiseman/DartSassBuilder/workflows/Build/badge.svg) | [![Nuget](https://img.shields.io/nuget/vpre/DartSassBuilder)](https://www.nuget.org/packages/DartSassBuilder/) | [![.NET Tool](https://img.shields.io/nuget/vpre/DartSassBuilder)](https://www.nuget.org/packages/DartSassBuilder-Tool) | ![NuGet Downloads](https://img.shields.io/nuget/dt/DartSassBuilder) |
 
 ## [Nuget Package](https://www.nuget.org/packages/DartSassBuilder)
 
-`DartSassBuilder` NuGet package adds a build task to compile Sass files to `.css`. It's compatible with both MSBuild (VS) and `dotnet build`.
+`DartSassBuilder` NuGet package adds a build task to compile Sass files to
+`.css`. It's compatible with both MSBuild (VS) and `dotnet build`.
 
-No configuration is required, it will compile the files implicitly on project build.
+No configuration is required, it will compile the files implicitly on project
+build.
 
 - ### Optionally provide arguments (see _Options_ below):
 
@@ -131,11 +135,14 @@ dsb files sources/style/a.scss sources/vendor/b.scss -l verbose
 
 ## Requirements
 
-`DartSassBuilder` can be installed on any project, however the underlying build tool requires [.NET 8](https://dotnet.microsoft.com/download/dotnet/8.0) installed on the machine.
+`DartSassBuilder` can be installed on any project, however the underlying build
+tool requires [.NET 9](https://dotnet.microsoft.com/download/dotnet/9.0)
+installed on the machine.
 
 ## Support
 
-The support is largely dependant on [DartSassHost](https://github.com/Taritsyn/DartSassHost)
+The support is largely dependant on
+[DartSassHost](https://github.com/Taritsyn/DartSassHost)
 
 This tool contains the following supporting packages:
 
